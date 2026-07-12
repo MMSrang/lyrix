@@ -1,0 +1,16 @@
+PySide6>=6.7,<7
+faster-whisper>=1.1,<2
+pyannote.audio>=3.3,<4
+# torchaudio 2.9 hat AudioMetaData entfernt, das pyannote 3.x noch braucht
+torch>=2.6,<2.9
+torchaudio>=2.6,<2.9
+psutil>=5.9
+huggingface_hub>=0.25
+# Windows-Integration (SMTC + Taskleisten-Miniplayer)
+comtypes>=1.4
+winrt-runtime>=3.0
+winrt-Windows.Foundation>=3.0
+winrt-Windows.Media>=3.0
+winrt-Windows.Media.Playback>=3.0
+winrt-Windows.Storage>=3.0
+winrt-Windows.Storage.Streams>=3.0
